@@ -1,5 +1,6 @@
 services:
   wavesurfer-react:
+    image: wavesurfer-react
     container_name: wavesurfer-react-dev
     working_dir: /app
     build:
