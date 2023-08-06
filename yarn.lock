@@ -1007,7 +1007,7 @@
     "@babel/plugin-transform-modules-commonjs" "^7.22.5"
     "@babel/plugin-transform-typescript" "^7.22.5"
 
-"@babel/register@^7.13.16":
+"@babel/register@^7.13.16", "@babel/register@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/register/-/register-7.22.5.tgz#e4d8d0f615ea3233a27b5c6ada6750ee59559939"
   integrity sha512-vV6pm/4CijSQ8Y47RH5SopXzursN35RQINfGJkmOlcpAtGuf94miFvIPhCKGQN7WGIcsgG1BHEX2KVdTYwTwUQ==
@@ -2232,9 +2232,9 @@
   integrity sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==
 
 "@storybook/icons@^1.1.0":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@storybook/icons/-/icons-1.1.4.tgz#552eea02beffe97a6bbefd7113cb98702d428a40"
-  integrity sha512-Aq9meChGlul/km0ywJvC8entRbjBa4q8i/0wLHLzH8pRmCMMtalTbF/OBn/Whiui7sgAa686jrMHkWlzfoQ0lg==
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@storybook/icons/-/icons-1.1.5.tgz#5cc7a73921c407658d630f8977dc658eebccc09f"
+  integrity sha512-PWJIaa/NtOu2VSWnj07evF1OI5+6H7ZTAvy0LO38RheW4W8iS+xoYsh2cr/nxLBblfhbw533uJrhdqpxCytxfA==
 
 "@storybook/instrumenter@7.2.1":
   version "7.2.1"
@@ -6666,7 +6666,6 @@ stream-shift@^1.0.0:
   integrity sha512-AiisoFqQ0vbGcZgQPY1cdP2I76glaVA/RauYR4G4thNFgkTqr90yXTo4LYX60Jl+sIlPNHHdGSwo01AvbKUSVQ==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.0:
-  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -6699,7 +6698,6 @@ string_decoder@~1.1.1:
     safe-buffer "~5.1.0"
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  name strip-ansi-cjs
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -7171,9 +7169,9 @@ watchpack@^2.2.0:
     graceful-fs "^4.1.2"
 
 wavesurfer-react@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/wavesurfer-react/-/wavesurfer-react-2.2.2.tgz#6720f73fc1780bc47340ee454b9c552144717c52"
-  integrity sha512-3w98DzGjZxMYFrP0syvyk1YYifFVLqhjtfUgJpygezSWPVXq0XTFKHlkNZrpJ8iLAtahpFb7CIeL60HYdw91MA==
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/wavesurfer-react/-/wavesurfer-react-2.2.3.tgz#54c9e0dacbf9ffaab47e6f3d43fc1bb66eead42f"
+  integrity sha512-GnG2baWB/zWJHA8UiNVEBIq4RAPowMFxz/DPGXa5QfS0v3vIvENXYnnzMu3V+NfPRTZLkfpWCi5tUH9qpFFrNw==
 
 wavesurfer.js@^7.1.1:
   version "7.1.1"
@@ -7262,7 +7260,6 @@ wordwrap@^1.0.0:
   integrity sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
-  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
