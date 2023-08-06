@@ -4,6 +4,7 @@ import {useCallback, useRef} from "react";
 import WaveSurferInstance from "wavesurfer.js";
 
 export interface AudioPlayerProps {
+    source: unknown
 }
 
 const plugins = [
@@ -13,7 +14,7 @@ const plugins = [
     }
 ]
 
-export default function AudioPlayer<AudioPlayerProps>(props) {
+export default function AudioPlayer(props: AudioPlayerProps) {
 
     const wavesurferRef = useRef<null | WaveSurferInstance>(null);
 
@@ -22,7 +23,7 @@ export default function AudioPlayer<AudioPlayerProps>(props) {
             wavesurferRef.current = waveSurfer as WaveSurferInstance
 
             if (wavesurferRef.current) {
-                wavesurferRef.current.load("/recording.wav");
+                wavesurferRef.current.load(props.source);
                 wavesurferRef.current.on("ready", () => {
                     console.log("WaveSurfer is ready");
                 });
@@ -31,7 +32,7 @@ export default function AudioPlayer<AudioPlayerProps>(props) {
     )
 
     const play = useCallback(() => {
-        if (wavesurferRef.current){
+        if (wavesurferRef.current) {
             wavesurferRef.current.playPause();
         }
     }, []);
@@ -41,7 +42,7 @@ export default function AudioPlayer<AudioPlayerProps>(props) {
             <h1>Audio Player: WaveSurfer</h1>
             <WaveSurfer plugins={plugins} onMount={mountHandler}>
                 <WaveForm id="waveform" cursorColor="transparent"/>
-                <div id="timeline" />
+                <div id="timeline"/>
             </WaveSurfer>
             <button onClick={play}>Play / Pause</button>
             <pre>{JSON.stringify({props}, null, 2)}</pre>
