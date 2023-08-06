@@ -16,6 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.9",
     "@babel/register": "^7.22.5",
     "@storybook/addon-essentials": "^7.2.1",
     "@storybook/addon-interactions": "^7.2.1",

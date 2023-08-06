@@ -10323,6 +10323,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "wavesurfer-react@workspace:."
   dependencies:
+    "@babel/core": ^7.22.9
     "@babel/register": ^7.22.5
     "@storybook/addon-essentials": ^7.2.1
     "@storybook/addon-interactions": ^7.2.1
