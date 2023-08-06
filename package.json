@@ -42,5 +42,4 @@
     "wavesurfer-react": "^2.2.2",
     "wavesurfer.js": "^7.1.1"
   },
-  "packageManager": "yarn@3.6.1"
 }
